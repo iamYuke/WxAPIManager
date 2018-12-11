@@ -1,0 +1,8 @@
+
+
+	target 'WeChatSDKManager' do
+		
+		pod 'WxAPIManager', :path => '../'
+
+
+	end
