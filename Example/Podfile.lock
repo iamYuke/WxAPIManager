@@ -1,23 +1,16 @@
 PODS:
-  - WechatOpenSDK (1.8.3)
-  - WxAPIManager (0.0.1):
-    - WechatOpenSDK
+  - WxAPIManager (0.0.1)
 
 DEPENDENCIES:
   - WxAPIManager (from `../`)
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - WechatOpenSDK
 
 EXTERNAL SOURCES:
   WxAPIManager:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WechatOpenSDK: 3117412f8aafde4758cac1e8d20b93c67cafcfef
-  WxAPIManager: 6d1386e1ed2040051dcdcb08d4cab366b332f904
+  WxAPIManager: ecf71883086880a7d6f08e5733845dc31de85a37
 
 PODFILE CHECKSUM: fc162e09d5826960840a9cc71f01b91fe626d4b1
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.5

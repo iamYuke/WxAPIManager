@@ -9,8 +9,12 @@ Pod::Spec.new do |s|
 	s.license = {:type => 'MIT',:file => 'LICENSE'}
 	s.author = {'Yuke' => 'zhangnan@yukez.com'}
     s.source = {:git => "https://github.com/iamYuke/WxAPIManager.git", :tag => "#{s.version}" }
-	s.platform = :ios, "8.0"
-    s.source_files = "YukeWxAPIManager.{h,m}"
-    s.dependency 'WechatOpenSDK'
+	s.platform = :ios, "9.0"
+    s.source_files = "#{s.name}/Classes/**/*.{h,m}"
+    s.vendored_libraries = "#{s.name}/Classes/**/*.a"
+    s.libraries = 'c++','sqlite3','z'
+  	s.frameworks = 'CoreGraphics', 'SystemConfiguration', 'Security', 'CoreTelephony', 'CFNetwork'
 
-end
+  end
+
+
